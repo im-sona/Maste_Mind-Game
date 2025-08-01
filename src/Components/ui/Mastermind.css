@@ -1,0 +1,141 @@
+.wrapper {
+  min-width: 320px;
+  text-align: center;
+  background-color: #445566;
+  height: 750px;
+}
+
+
+.board {
+  display: inline-block;
+  padding: 3px 5px;
+  background: #999;
+  border: 1px solid #666;
+  border-radius: 10px;
+
+}
+
+.rows {
+  display: flex;
+  position: relative;
+  background: #667788;
+  margin: 1px 0 0;
+  background-image: -moz-radial-gradient(40% -215%, circle farthest-corner, rgba(0, 0, 0, 0.15) 20%, #000000 200%);
+}
+
+.rows.active {
+  background: #445566;
+}
+
+.rows:first-child {
+  border: 0 none;
+  border-radius: 8px 8px 0 0;
+}
+
+.rows:last-child {
+  border: 0 none;
+  border-radius: 0 0 8px 8px;
+}
+
+.hints, .combination {
+  display: inline;
+  float: left;
+}
+
+.hints {
+  margin: 5px;
+}
+
+.hints .hole {
+  float: left;
+  width: 15px;
+  height: 15px;
+  margin: 5px;
+  border-radius: 10px;
+  box-shadow: 0 0 0 2px #CCCCCC inset, 1px 1px 0 2px #000000 inset, 0 0 0 1px #666666;
+}
+
+.hints .hole.peg {
+  box-shadow: none;
+}
+
+.hints .hole.peg.green {
+  background: green;
+  box-shadow: 0 0 2px 0 #000000;
+}
+
+.hints .hole.peg.orange {
+  background: orange;
+  box-shadow: 0 0 0 1px #000000, 0 0 3px -2px #FFFFFF inset;
+}
+
+.combination {
+  margin: 7px auto;
+}
+
+.combination .hole {
+  background-color: #CCCCCC;
+  border-radius: 15px;
+  box-shadow: 0 0 0 2px #CCCCCC inset, 1px 2px 2px 2px #000000 inset, 0 0 0 1px #666666;
+  float: left;
+  width: 24px;
+  height: 24px;
+  padding: 4px;
+  margin: 6px;
+  cursor: pointer;
+}
+
+.combination.active .hole {
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.combination .hole.peg {
+  box-shadow: 1px 1px 1px 0px rgb(51, 51, 51), 0px 0px 3px -1px #000 inset;
+}
+
+.combination .hole.peg.yellow {
+  background: yellow;
+}
+
+.combination .hole.peg.orange {
+  background: orange;
+}
+
+.combination .hole.peg.red {
+  background: red;
+}
+
+.combination .hole.peg.green {
+  background: green;
+}
+
+.combination .hole.peg.blue {
+  background: blue;
+}
+
+.combination .hole.peg.purple {
+  background: purple;
+}
+
+.combination .hole.peg.pink {
+  background: pink;
+}
+
+.combination .hole.peg.brown {
+  background: brown;
+}
+
+.combination .hole.peg.white {
+  background: #fff;
+}
+
+.combination .hole.peg.black {
+  background: #000;
+}
+
+.confirm {
+  position: absolute;
+  right: -75px;
+  top: 15px;
+}

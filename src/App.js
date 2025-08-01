@@ -1,24 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
+// import { useState } from 'react';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+// import Game from './Components/Game';
+// import Spin from './Components/Spin';
+// import Home from './Components/Home';
+// import Mastermind from './Components/ui/Mastermind';
 
+import './App.css';
+import Homes from './Components/Homes';
+import About from './Components/About';
 function App() {
+  
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+  
+   
+      <div className=''>
+        <BrowserRouter>
+          <Routes>
+            <Route path='/' element={<Homes />} /> 
+            
+            <Route path='/about' element={<About />} />
+            {/* <Route path='/game' element={<Game />} />
+            <Route path='/master' element={<Mastermind  level="medium"  />} /> */}
+          </Routes>
+        </BrowserRouter>
+      </div> 
+     
+
+ 
+
   );
 }
 

@@ -1,0 +1,62 @@
+.main{
+    background-image: linear-gradient(to bottom,#12100f37,#2c2524);
+    height: 727px;
+    border: 3px solid yellow;
+}
+.bor{
+    border: 1px solid yellow;
+    
+}
+.bor1{
+    border: 1px solid yellow;
+}
+
+.userform{
+    text-align: center;
+    padding-top: 100px;
+    color: white;
+}
+/* .link{
+   
+    color:white;
+    text-decoration: none;
+    margin-top: 70px;
+    font-family: "Playwrite DE Grund", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #EEAB1B;
+    
+   
+ 
+} */
+.link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #dcc40d;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 25px;
+    transition: background-color 0.3s;
+}
+
+
+.style{
+    
+  font-family: "Playwrite DE Grund", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  padding-top: 90px;
+  color: white;
+
+}
+label{
+    font-family: "Playwrite DE Grund", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    
+}

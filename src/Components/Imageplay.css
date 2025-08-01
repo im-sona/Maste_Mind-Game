@@ -1,0 +1,40 @@
+
+
+.image-carousel {
+    width: 75%;
+    height: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+    margin-top: 100px;
+    margin-left: 100px;
+   
+}
+
+.carousel-image {
+    width: 75%;
+    height: auto;
+    max-height: 100%;
+    object-fit: cover;
+    transition: opacity 1s ease-in-out;
+    border: 3px solid yellow;
+}
+.text{
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+    
+}
+h4{
+    font-family: "Playwrite US Trad", cursive;
+  font-optical-sizing: auto;
+  font-weight:400;
+  font-style: normal;
+}
+h5{
+    font-family: "Anton SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}

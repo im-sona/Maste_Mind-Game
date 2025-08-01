@@ -1,0 +1,42 @@
+.home{
+    background-image: url('assets/images/game.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+   
+    
+}
+.link1{
+    text-decoration: none;
+     color: white;
+    font-size: 35px;
+    background-color: rgb(122, 121, 124);
+    padding: 50px;
+    
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    
+
+}
+.home1{
+    height: 750px;
+    color: white;
+    text-align: center;
+    padding-top: 260px;
+    cursor: pointer;
+    margin-top: 70px;
+
+}
+.wel{
+    background-color: #1b181840;
+    width: 2000px;
+    padding-right: 580px;
+    
+    
+}
+.link1:hover{
+    transform: scale(1.1);
+    background-color: black;
+    box-shadow: 5px 5px 5px 5px  rgba(5, 5, 5, 0.4);
+}
+
+
