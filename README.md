@@ -1,74 +1,73 @@
-<<<<<<< HEAD
-# Maste_Mind-Game
-=======
-# Getting Started with Create React App
+🧠 Master Mind Game
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A fun and interactive memory-based web game where users can register, log in, and test their skills through matching and logic challenges. Built using React.js for the frontend and PHP with MySQL (via XAMPP) for backend authentication and user management.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🖼️ Preview
+###Loading Page
+<img width="1920" height="1020" alt="React App - Personal - Microsoft​ Edge 14-07-2024 19_06_39" src="https://github.com/user-attachments/assets/cb743df5-5420-4815-9b1b-b4481e337ad5" />
 
-### `npm start`
+### Login Page
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<img width="1920" height="1020" alt="React App - Personal - Microsoft​ Edge 14-07-2024 19_06_55" src="https://github.com/user-attachments/assets/c5d2481f-59a0-482b-ba66-a12d98e5580b" />
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+###DashBoard
+<img width="1920" height="1020" alt="React App - Personal - Microsoft​ Edge 14-07-2024 19_07_04" src="https://github.com/user-attachments/assets/8e1650bd-534e-4fb1-ab21-c87a0b7bd367" />
 
-### `npm test`
+### Game Start
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<img width="1920" height="1020" alt="localhost _ localhost_3306 _ register _ userform _ phpMyAdmin 5 2 1 and 1 more page - Personal - Microsoft​ Edge 14-07-2024 19_07_37" src="https://github.com/user-attachments/assets/9af81aa2-9178-4673-a6f6-26030ecf4135" />
+<img width="1920" height="1020" alt="localhost _ localhost_3306 _ register _ userform _ phpMyAdmin 5 2 1 and 1 more page - Personal - Microsoft​ Edge 14-07-2024 19_07_45" src="https://github.com/user-attachments/assets/a87d6f2f-bf58-4b3c-a0b1-2962afe493f4" />
 
-### `npm run build`
+<img width="1920" height="1020" alt="localhost _ localhost_3306 _ register _ userform _ phpMyAdmin 5 2 1 and 1 more page - Personal - Microsoft​ Edge 14-07-2024 19_09_06" src="https://github.com/user-attachments/assets/96b99c37-7156-44b4-a44e-0683090cfee1" />
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Game Win
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<img width="1920" height="1020" alt="localhost _ localhost_3306 _ register _ userform _ phpMyAdmin 5 2 1 and 1 more page - Personal - Microsoft​ Edge 14-07-2024 19_10_01" src="https://github.com/user-attachments/assets/ab24a059-bb4e-4409-8610-0a0542056185" />
+<img width="1920" height="1020" alt="localhost _ localhost_3306 _ register _ userform _ phpMyAdmin 5 2 1 and 1 more page - Personal - Microsoft​ Edge 14-07-2024 19_09_21" src="https://github.com/user-attachments/assets/2948f780-9465-4831-9de9-0af3a52a686d" />
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## ⚙️ Tech Stack
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+**Frontend:**
+- React.js
+- HTML5
+- CSS3
+- JavaScript
+- Bootstrap 5
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+**Backend:**
+- PHP
+- MySQL
+- XAMPP (Apache Server & MySQL Database)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 🧩 Features
 
-## Learn More
+- 🔐 User Registration & Login
+- 🕹️ Interactive Game Logic (Memory Matching)
+- 🧠 Multiple Game Modes (Pitcher Matching Game & Master Mind Game)
+- ⏱️ Countdown Timer
+- 🔁 Restart on Game End
+- 📊 Tracks moves, matches, and time
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 🚀 Getting Started
 
-### Code Splitting
+### 🔧 Prerequisites
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- Node.js & npm
+- XAMPP
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### ⚙️ Frontend Setup
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
->>>>>>> 35da7b0 (Initialize project using Create React App)
+```bash
+git clone https://github.com/yourusername/master-mind-game.git
+cd master-mind-game
+npm install
+npm start
